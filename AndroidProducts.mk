@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_vince.mk
+    $(LOCAL_DIR)/spark_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_vince-user \
-    derp_vince-userdebug \
-    derp_vince-eng
+    spark_vince-user \
+    spark_vince-userdebug \
+    spark_vince-eng

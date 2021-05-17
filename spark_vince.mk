@@ -32,6 +32,10 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
+# Maintainer
+SPARK_BUILD_TYPE := OFFICIAL
+PRODUCT_PRODUCT_PROPERTIES += \
+   ro.spark.maintainer=DEATHSTROKE \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince

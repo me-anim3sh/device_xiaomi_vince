@@ -35,7 +35,7 @@ TARGET_DISABLE_POSTRENDER_CLEANUP := true
 # Maintainer
 SPARK_BUILD_TYPE := OFFICIAL
 PRODUCT_PRODUCT_PROPERTIES += \
-   ro.spark.maintainer=DEATHSTROKE \
+   ro.spark.maintainer=ENTER_NAME \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
@@ -53,3 +53,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
+
+#BLUR
+TARGET_USES_BLUR := true
+
+#FACEUNLOCK
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
